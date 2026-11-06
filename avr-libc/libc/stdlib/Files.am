@@ -1,0 +1,100 @@
+# Copyright (c) 2004,2005  Theodore A. Roth
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+#
+# * Redistributions of source code must retain the above copyright
+#   notice, this list of conditions and the following disclaimer.
+# * Redistributions in binary form must reproduce the above copyright
+#   notice, this list of conditions and the following disclaimer in
+#   the documentation and/or other materials provided with the
+#   distribution.
+# * Neither the name of the copyright holders nor the names of
+#   contributors may be used to endorse or promote products derived
+#   from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+# AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+# ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+# LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+# CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+# SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+# INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+# CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+# ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+# POSSIBILITY OF SUCH DAMAGE.
+
+stdlib_a_c_sources = \
+	abs.c \
+	assert.c \
+	atexit.c \
+	bsearch.c \
+	calloc.c \
+	errno.c \
+	ftoa_prf.c \
+	ftostre.c \
+	ftostrf.c \
+	getenv.c \
+	labs.c \
+	malloc.c \
+	pstr_inf.c \
+	qsort.c \
+	seed.c \
+	srand.c \
+	random.c \
+	realloc.c \
+	strtof.c \
+	strtold.c \
+	system.c \
+	ftoa_conv.h \
+	stdlib_private.h
+
+stdlib_a_asm_sources = \
+	_abort.S \
+	abort.S \
+	atoff.S \
+	atofl.S \
+	atoi.S \
+	atol.S \
+	div.S \
+	exit.S \
+	ftoa_engine.S \
+	ldiv.S \
+	setjmp.S \
+	isascii.S \
+	toascii.S \
+	isalnum.S \
+	cty_isfalse.S \
+	isalpha.S \
+	isdigit.S \
+	isxdigit.S \
+	iscntrl.S \
+	isprint.S \
+	isspace.S \
+	isblank.S \
+	ispunct.S \
+	llabs.S \
+	qsort_swapfunc.S \
+	rand.S \
+	strtol.S \
+	strtoll.S \
+	strtoul.S \
+	strtoull.S \
+	strtoxx.S \
+	strto32.S \
+	strto64.S \
+	tolower.S \
+	toupper.S
+
+stdlib_a_extra_dist = \
+	ctype.S \
+	abort.c \
+	atoi.c \
+	atol.c \
+	strto32.h \
+	strto64.h \
+	strtoxx.h
+
+# vim: set ft=make:
