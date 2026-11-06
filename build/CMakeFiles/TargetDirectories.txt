@@ -1,0 +1,15 @@
+C:/Users/mohdn/avr-libc-cmake/build/CMakeFiles/sample_firmware.dir
+C:/Users/mohdn/avr-libc-cmake/build/CMakeFiles/edit_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/CMakeFiles/rebuild_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/common/CMakeFiles/avr_common.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/common/CMakeFiles/edit_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/common/CMakeFiles/rebuild_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/crt1/CMakeFiles/avr_crt1.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/crt1/CMakeFiles/edit_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/crt1/CMakeFiles/rebuild_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/libc/CMakeFiles/c.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/libc/CMakeFiles/edit_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/libc/CMakeFiles/rebuild_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/libm/CMakeFiles/m.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/libm/CMakeFiles/edit_cache.dir
+C:/Users/mohdn/avr-libc-cmake/build/avr-libc/libm/CMakeFiles/rebuild_cache.dir
